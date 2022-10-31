@@ -235,6 +235,149 @@ header{
     line-height: 26px;
     color: #101828;
 }
+/* section-cards-carusel */
+
+/* smart-text h2 */
+.smart__text h2{
+    width: 477px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #101828;
+    margin-bottom: 60px;
+}
+/* all4 */
+.all4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 113px;
+}
+.game__watch{
+    border: 1px solid #E4E7EC;
+    box-shadow: 0px 0px 1px 1px rgba(228, 231, 236, 0.15);
+    border-radius: 6px;
+    padding: 20px 15px;
+    transition: all .7s ease;
+    width: 255px;
+}
+/* all4:hover */
+.game__watch:hover{
+    box-shadow: 5px 10px 10px 4px #d6d7d9d0;
+    cursor: pointer;
+}
+/* img-vector */
+.img__vector{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+/* smart-text */
+.smart__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* sony__text */
+.sony__text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #576071;
+    margin-bottom: 5px;
+}
+/* sony__pr */
+.sony__pr{
+    width: 218px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #323A4B;
+    margin-bottom: 10px;
+}
+/* vector__all */
+.vector__img{
+    margin-bottom: 10px;
+}
+/* button__money */
+.button__money{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #006D77;
+}
+/* button__3 */
+.button3{
+    background: #BEE1E6;
+    border-radius: 6px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 26px;
+    text-decoration: none;
+    padding: 0px 15px;
+    color: #006D77;
+    border: 1.5px solid #BEE1E6;
+    transition: all .5s ease;
+}
+/* button3:hover */
+.button3:hover{
+    background-color: #fff;
+    border: 1px solid #006D77 transparent;
+}
+/* button__star */
+.button__star{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+/* email-section */
+
+/* all */
+.all5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 56px;
+}
+/* all5 h2 */
+.all5 h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #101828;
+    text-align: center;
+}
+/* all p */
+.all5 p{
+    width: 522px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #475467;
+    text-align: center;
+}
+/* section__pupular */
+
+/* popular__cards-item */
+
 /* responsive */
 @media only screen and (max-width:1170px){
     .nav-list{
@@ -335,6 +478,15 @@ header{
     }
     .menu-icon{
         display: block;
+    }
+}
+
+@media only screen and (max-width:595px){
+    .all5 p{
+        width: 100%;
+    }
+    .all5 h2{
+        width: 100%;
     }
 }
 
