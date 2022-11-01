@@ -253,7 +253,7 @@ header{
 .all4{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 30px;
     margin-bottom: 113px;
 }
@@ -376,13 +376,333 @@ header{
 }
 /* section__pupular */
 
-/* popular__cards-item */
+ .popular__cards_item{
+    display: flex;
+    align-items: center;
+    gap: 216px;
+ }
+ 
+ .popular__cards_item2{
+    display: flex;
+    align-items: center;
+    gap: 199px;
+ }
 
+ .popular__cards_item3{
+    display: flex;
+    align-items: center;
+    gap: 204px;
+ }
+
+ .popular__cards_item4{
+    display: flex;
+    align-items: center;
+    gap: 260px;
+ }
+/* all7 */
+ .all7{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ /* hr */
+ hr{
+    border: 1px solid #E4E7EC;
+ }
+ /* popular__text */
+ .popular__text{
+    margin-bottom: 40px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 26px;
+    color: #323A4B;
+ }
+ /* pupular__pr */
+ .pupular__pr{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #667085;
+ }
+ /* all6 */
+ .all6{
+    background: #FFFFFF;
+    border: 1px solid #D1DAE8;
+    box-shadow: 0px 3px 6px rgba(219, 220, 222, 0.17);
+    border-radius: 6px;
+    width: 475px;
+    padding: 40px 30px;
+ }
+ /* computer */
+ .computer{
+    width: 300px;
+    background: #FFFFFF;
+    border: 1px solid #D1DAE8;
+    border-radius: 6px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 25px 10px;
+ }
+ /* all8 */
+ .all8{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+/* all6__item */
+.all6__item{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 120px;
+}
+/* computer2 */
+.computer2{
+    display: flex;
+    justify-content: center;
+}
+/* computer3 */
+.computer3{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+/* button4 */
+.button4{
+    padding: 8px 27px;
+    background: #FFF3EA;
+    border-radius: 48px;
+    border: 1.5px solid #FFF3EA;
+    margin-bottom: 42px;
+}
+/* button__flex */
+.button__flex{
+    display: flex;
+    justify-content: center;
+}
+/* computer */
+.computer h4{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: #323A4B;
+}
+
+/* section-cross */
+
+/* all9 h2 */
+.all9 h2{
+    width: 659px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #101828;
+    text-align: center;
+    margin-bottom: 62px;
+}
+/* choose__cards */
+.choose__cards{
+    display: flex;
+    align-items: center;
+    gap: 128px;
+}
+/* all9 */
+.all9__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 128px;
+}
+/* all__texts */
+.all__texts{
+    display: flex;
+    justify-content: center;
+}
+/* all__cards-cross */
+.all__cards-cross{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 285px;
+    padding: 46px 10px;
+    background: #FFF3EA;
+    border-radius: 8px;
+}
+
+.all__cards-cross2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 285px;
+    padding: 46px 10px;
+    background: #FDE2E4;
+    border-radius: 8px;
+}
+
+.all__cards-cross3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 285px;
+    padding: 46px 10px;
+    background: #DBECE5;
+    border-radius: 8px;
+}
+
+.all__cards-cross4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 285px;
+    padding: 46px 10px;
+    background: #FFF3EA;
+    border-radius: 8px;
+}
+
+.all__cards-cross5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 285px;
+    padding: 46px 10px;
+    background: #D1ECFD;
+    border-radius: 8px;
+}
+/* all__cards-cross h2 */
+.all__cards-cross2 h4{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 26px;
+    color: #1E2534;
+    margin-top: 22px;
+    margin-bottom: 35px;
+}
+/* all__cards-cross */
+.all__cards-cross2 p{
+    width: 117px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #667085;
+    text-align: center;
+}
+/* all__cards-cross h2 */
+.all__cards-cross3 h4{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 26px;
+    color: #1E2534;
+    margin-top: 22px;
+    margin-bottom: 35px;
+}
+/* all__cards-cross */
+.all__cards-cross3 p{
+    width: 117px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #667085;
+    text-align: center;
+}
+/* all__cards-cross h2 */
+.all__cards-cross4 h4{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 26px;
+    color: #1E2534;
+    margin-top: 22px;
+    margin-bottom: 35px;
+}
+/* all__cards-cross */
+.all__cards-cross4 p{
+    width: 117px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #667085;
+    text-align: center;
+}
+/* all__cards-cross h2 */
+.all__cards-cross5 h4{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 26px;
+    color: #1E2534;
+    margin-top: 22px;
+    margin-bottom: 35px;
+}
+/* all__cards-cross */
+.all__cards-cross5 p{
+    width: 117px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #667085;
+    text-align: center;
+}
+/* all__cards-cross h2 */
+.all__cards-cross h4{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 26px;
+    color: #1E2534;
+    margin-top: 22px;
+    margin-bottom: 35px;
+}
+/* all__cards-cross */
+.all__cards-cross p{
+    width: 117px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #667085;
+    text-align: center;
+}
 /* responsive */
 @media only screen and (max-width:1170px){
     .nav-list{
         display: flex;
         gap: 60px;
+    }
+}
+
+@media only screen and (max-width:1165px){
+    .all9__cards{
+        gap: 50px;
+    }
+    .choose__cards{
+        gap: 50px;
     }
 }
 
@@ -395,6 +715,9 @@ header{
     }
     .text__paragraph{
         width: 100%;
+    }
+    .all4{
+        justify-content: center;
     }
 }
 
@@ -434,6 +757,13 @@ header{
     }
     .navbar{
         gap: 30px;
+    }
+}
+
+@media only screen and (max-width:915px){
+    .all6__item{
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -481,6 +811,13 @@ header{
     }
 }
 
+@media only screen and (max-width:675px){
+    .choose__cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 @media only screen and (max-width:595px){
     .all5 p{
         width: 100%;
@@ -512,6 +849,34 @@ header{
         width: 350px;
         justify-content: center;
         gap: 20px;
+    }
+    .popular__cards_item{
+        justify-content: center;
+        gap: 5px;
+    }
+    .popular__cards_item2{
+        justify-content: center;
+        gap: 5px;
+    }
+    .popular__cards_item3{
+        justify-content: center;
+        gap: 5px;
+    }
+    .popular__cards_item4{
+        justify-content: center;
+        gap: 5px;
+    }
+    .popular__text{
+        text-align: center;
+    }
+    .all2{
+        margin-top: -86px;
+    }
+    .all6__item{
+        margin-bottom: 30px;
+    }
+    .all9 h2{
+        font-size: 35px;
     }
 }
 
@@ -552,5 +917,14 @@ header{
         width: 315px;
         justify-content: center;
         gap: 5px;
+    }
+    .all9 h2{
+        font-size: 30px;
+    }
+    .smart__text h2{
+        font-size: 30px;
+    }
+    .tv__text{
+        font-size: 13px;
     }
 }
