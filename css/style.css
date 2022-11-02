@@ -719,6 +719,7 @@ header{
     border: none;
     color: #FFFFFF;
     margin-left: -55px;
+    cursor: pointer;
 }
 /* contact__al h2 */
 .contact__all h2{
