@@ -826,6 +826,17 @@ header{
     color: #969696;
     transition: all .3s ease;
 }
+/* bx */
+.bx{
+    font-size: 20px;
+    color: #444E62;
+}
+/* icons */
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 /* footer__link:hover */
 .footer__link:hover{
     color: #323A4B;
